@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temporizador online</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Temporizador online</h1>
+    </header>
+
+    <main>
+      <h2>Defina um temporizador</h2>
+
+      <section class="definir-tempo">
+        <div>
+          <label for="horas">Horas</label>
+          <select id="horas">
+            <option value="0">00</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="minutos">Minutos</label>
+          <select id="minutos">
+            <option value="0">00</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="segundos">Segundos</label>
+          <select id="segundos">
+            <option value="0">00</option>
+          </select>
+        </div>
+      </section>
+
+      <section class="tempos-padroes">
+        <h2>Valores padrões</h2>
+        <div>
+          <span>10 segundos </span>
+          <span>20 segundos </span>
+          <span>30 segundos </span>
+        </div>
+
+        <div>
+          <span>45 segundos</span>
+          <span>01 minutos</span>
+          <span>05 minutos</span>
+        </div>
+
+        <div>
+          <span>20 minutos</span>
+          <span>40 minutos</span>
+          <span>01 horas</span>
+        </div>
+      </section>
+
+      <div class="botoes">
+        <button id="iniciar">Iniciar</button>
+        <button id="limpar">Limpar</button>
+      </div>
+    </main>
+
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>
