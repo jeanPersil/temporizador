@@ -12,55 +12,44 @@
     </header>
 
     <main>
-      <h2>Defina um temporizador</h2>
-
-      <section class="definir-tempo">
-        <div>
-          <label for="horas">Horas</label>
-          <select id="horas">
-            <option value="0">00</option>
-          </select>
-        </div>
-
-        <div>
-          <label for="minutos">Minutos</label>
-          <select id="minutos">
-            <option value="0">00</option>
-          </select>
-        </div>
-
-        <div>
-          <label for="segundos">Segundos</label>
-          <select id="segundos">
-            <option value="0">00</option>
-          </select>
+      <section class="temporizador">
+        <h2 id="tempo"></h2>
+        <div class="botoes">
+          <button id="editar_temporizador">Editar o Temporizador</button>
+          <button id="redefinir">Redefinir</button>
+          <button id="iniciar_padrao" class="iniciar">Iniciar</button>
+          <button id="pausar_temporizador" class="pausar">Pausar</button>
         </div>
       </section>
 
-      <section class="tempos-padroes">
-        <h2>Valores padrões</h2>
-        <div>
-          <span>10 segundos </span>
-          <span>20 segundos </span>
-          <span>30 segundos </span>
-        </div>
+      <div class="modal-overlay" id="modal">
+        <div class="modal">
+          <div>
+            <label for="horas">Horas</label>
+            <select id="horas">
+              <option value="0">00</option>
+            </select>
+          </div>
 
-        <div>
-          <span>45 segundos</span>
-          <span>01 minutos</span>
-          <span>05 minutos</span>
-        </div>
+          <div>
+            <label for="minutos">Minutos</label>
+            <select id="minutos">
+              <option value="0">00</option>
+            </select>
+          </div>
 
-        <div>
-          <span>20 minutos</span>
-          <span>40 minutos</span>
-          <span>01 horas</span>
-        </div>
-      </section>
+          <div>
+            <label for="segundos">Segundos</label>
+            <select id="segundos">
+              <option value="0">00</option>
+            </select>
+          </div>
 
-      <div class="botoes">
-        <button id="iniciar">Iniciar</button>
-        <button id="limpar">Limpar</button>
+          <div class="botoes-modal">
+            <button id="cancelar_modal">Cancelar</button>
+            <button id="iniciar_temporizador">Iniciar</button>
+          </div>
+        </div>
       </div>
     </main>
 

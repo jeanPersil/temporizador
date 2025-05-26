@@ -25,4 +25,18 @@ function preencherSelect() {
   }
 }
 
-export { preencherSelect };
+function abrir_modal() {
+  const modal = document.getElementById("modal");
+  modal.style.display = "flex";
+}
+
+function fechar_modal() {
+  const modal = document.getElementById("modal");
+  document.getElementById("horas").value = 0;
+  document.getElementById("minutos").value = 0;
+  document.getElementById("segundos").value = 0;
+
+  modal.style.display = "none";
+}
+
+export { preencherSelect, abrir_modal, fechar_modal };
