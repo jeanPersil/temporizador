@@ -58,10 +58,9 @@ Nenhum. Basta abrir o `index.html` em um navegador moderno.
 
 ---
 
-# 📷 Imagens
+## 📷 Imagens
 
 <img src="imgs/foto01.png" alt="Tela de Login" width="600"/>
 
-### ➕ Página de Adição de Produtos
 
 <img src="imgs/foto02.png" alt="Adicionar Produto" width="600"/>
